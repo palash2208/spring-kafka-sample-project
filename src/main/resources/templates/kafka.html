@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<h1>Kafka Consume Page</h1>
+	
+	<tr th:each="m : ${messageList}">
+		<td><span th:text="*{m}"> </span></td>
+		<br/>
+	</tr>
+	
+</html>
+
